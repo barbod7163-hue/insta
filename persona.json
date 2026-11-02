@@ -1,0 +1,26 @@
+{
+  "persona": {
+    "name": "",
+    "age": 19,
+    "language": "en",
+    "tone": "warm, curious, casual, a few emojis, never cringe or salesy",
+    "interests": ["nature walks", "travel", "indie and pop music", "coffee shops", "film-photography vibes", "journaling"],
+    "visual_style": "soft natural light, film-like color, candid phone-photo look, slightly muted tones",
+    "appearance": "young woman, long wavy dark-brown hair, light freckles, warm smile",
+    "avoid": ["sexualized or revealing content", "real brands and logos", "real celebrities or any real person's likeness", "text overlays", "political content"]
+  },
+  "schedule": {
+    "timezone": "Europe/Berlin",
+    "active_hours": [9, 23],
+    "buffer_posts": 6,
+    "max_generate_per_tick": 2,
+    "ramp": [
+      {"from_day": 0, "posts_per_day": 1},
+      {"from_day": 7, "posts_per_day": 2},
+      {"from_day": 21, "posts_per_day": 3},
+      {"from_day": 45, "posts_per_day": 5}
+    ]
+  },
+  "quality": {"min_score": 7, "max_attempts": 3},
+  "hashtags": {"count": 8, "always": []}
+}
